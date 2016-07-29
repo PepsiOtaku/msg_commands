@@ -50,6 +50,9 @@ Add a comment line with:
 
 Commands can still be combined (Example: \I[\m[\V[123]]] would give you the item name dropped by the monster with the ID stored within variable 123).
 
+Since version 1.1: Allows you to put brackets around a complex command. Example if variable 123 was "5" and monster 5's item drop name was "Potion", the command "[\I[\m[\V[123]]]]" would return "[Potion]"
+(In the previous version of this plugin, all closing brackets got parsed out, so it would have returned "[Potion")
+
 
 
 
